@@ -1,0 +1,55 @@
+.btn-1 {
+    background-color: rgb(6, 117, 227);
+    border: none;
+    color: white;
+    padding: 9px 15px;
+    cursor: pointer;
+    font-size: 10px;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn-1:hover {
+    background-color: rgb(44, 82, 196);
+  }
+  table,th,td{
+    border: 1px solid black;
+    padding: 10px;
+
+  }
+  body{
+   /* padding: 50px;*/
+    box-sizing: border-box;
+    background-color:  rgba(255, 255, 255, 0.8);
+  }
+  body { 
+    font-family: Arial, sans-serif; 
+    /*margin: 20px; 
+    padding: 15px; */
+} 
+
+.table-container { 
+    display: flex; 
+    justify-content: space-between; 
+    margin: 5px; 
+} 
+
+.table { 
+    border-collapse: collapse; 
+    width: 50%; 
+    margin-right: 15px; 
+    color: rgb(0, 0, 86);
+    background-color: rgb(187, 206, 255);
+
+} 
+
+th, 
+td { 
+    
+    padding: 8px; 
+    text-align: left; 
+} 
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+  
